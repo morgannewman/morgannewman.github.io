@@ -291,7 +291,9 @@
 .pb_lg_py_cover,
 .pb_xl_py_cover {
   position: relative;
-  padding: 6em 0; }
+  padding: 6em 0;
+  background-color: black;
+}
   @media (max-width: 767px) {
     .pb_sm_py_cover,
     .pb_md_py_cover,
@@ -1070,7 +1072,9 @@ a {
   left: 0;
   z-index: 100;
   width: 100%;
-  font-family: "Montserrat", Arial, sans-serif; }
+  font-family: "Montserrat", Arial, sans-serif;
+  background-color: black;
+}
   .pb_navbar .navbar-toggler:active, .pb_navbar .navbar-toggler:focus {
     outline: none; }
   .pb_navbar > .container {
@@ -1520,6 +1524,7 @@ a {
     color: #212529; }
     .pb_contact_details_v1 li span {
       display: block;
+      position: center;
       font-size: 14px;
       color: #adb5bd; }
 
@@ -1730,23 +1735,33 @@ a {
 
 .navbar-brand img {
   height: 60px;
-  max-width: auto;
 }
 
 /* BEGIN COUNTDOWN TIMER STYLING */
-/*
+
 #countdown{
   width: 465px;
   height: 112px;
   text-align: left;
   margin: auto;
   position: relative;
-  top: 0; bottom: 0; left: 0; right: 0;
+  top: 0; bottom: 0; left: -8%; right: 0;
+
+}
+@media (max-width: 767px) {
+  #countdown {
+    top: 0; bottom: 0; left: 5%; right: 0;
+  }
+  #countdown{
+    zoom: 0.8;
+    -moz-transform: scale(0.8);
+  }
 }
 
 #countdown #tiles{
   position: relative;
-  z-index: 1;
+  z-index: 2;
+  ;
 
 }
 
@@ -1790,6 +1805,16 @@ a {
   position: absolute;
   top: 48%; left: 0;
 }
+#countdown .labels li {
+  width: 102px;
+  font-weight: 300;
+  font: 15px "Montserrat", Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 #000;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+}
 
 #countdown .labels{
   width: 100%;
@@ -1798,23 +1823,3 @@ a {
   bottom: 8px;
 }
 
-#countdown .labels li{
-  width: 102px;
-  font-weight: 300;
-  font: 15px "Montserrat", Arial, sans-serif;
-  color: #ffffff;
-  text-shadow: 1px 1px 0px #000;
-  text-align: center;
-  text-transform: uppercase;
-  display: inline-block;
-
-}   
-
-*/
-
-@media (max-width: 767px) {
-  #subHeading {
-    float: none;
-    text-align: center;
-  }
-}

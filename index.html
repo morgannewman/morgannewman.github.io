@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    <!-- 
-    More Templates Visit ==> ProBootstrap.com
-    Free Template by ProBootstrap.com under the License Creative Commons 3.0 ==> (probootstrap.com/license)
-    -->
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<title>Speaker Contest&mdash;TEDxUCSB 2018 </title>
+		<title>TEDxUCSB 2018 &mdash; Speaker Contest</title>
 		<meta name="description" content="Speaker contest for TEDxUCSB 2018.">
 		<meta name="keywords" content="Contest, TED, TEDx, TEDxUCSB, Speaker Contest">
     
@@ -30,7 +26,7 @@
     <script src="assets/js/jquery.min.js"></script>
     <script type="text/javascript">
         $(function(){
-            var target_date = new Date(Date.UTC(2018,0,23,8)); // set the countdown date
+            var target_date = new Date(Date.UTC(2018,0,27,8)); // set the countdown date
             var days, hours, minutes, seconds; // variables for time units
 
             var countdown = document.getElementById("tiles"); // get tag element
@@ -72,7 +68,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark pb_navbar pb_scrolled-light" id="pb-navbar">
       <div class="container">
-          <a href="#section-home" class="navbar-brand smoothscroll"><img src="http://image.ibb.co/fKVzmm/TEDx_UCSB_Black_Logo.png" alt="Logo"></a>
+          <a href="#section-home" class="navbar-brand smoothscroll"><img src="assets/images/black_logo.png" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#probootstrap-navbar" aria-controls="probootstrap-navbar" aria-expanded="false" aria-label="Toggle navigation">
           <span><i class="ion-navicon"></i></span>
         </button>
@@ -88,27 +84,25 @@
     </nav>
     <!-- END nav -->
 
-    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-1" style="background-image: url(http://image.ibb.co/noMysG/Basic_Edit.png)" id="section-home">
+    <section class="pb_cover_v1 text-left cover-bg-black cover-bg-opacity-1" style="background-image: url(assets/images/hero_image.jpg)" id="section-home">
       <div class="container">
         <div class="row align-items-center justify-content-end">
           <div class="col-md-6  order-md-1">
 
             <h2 class="heading mb-5">Your ideas are worth spreading.</h2>
-              <div id="subHeading"><div class="mb-5">
-<!-- COUNTDOWN OBJECT
-                  <div class="row" id="countdown">
-                  <div id='tiles'></div>
+              <div id="subHeading"><div class="mb-5 container text-left">
+                  <div class="row align-items-center text-left" id="countdown">
+                  <div id='tiles' class="text-left"></div>
                   <div class="labels">
                       <li>Days</li>
                       <li>Hours</li>
                       <li>Mins</li>
                       <li>Secs</li>
                   </div></div>
--->
               </div>
 
 
-            <p><a href="#section-rules" role="button" class="btn smoothscroll pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2" id="headerBtn">Enter the Contest</a></p>
+            <p><a href="#section-rules" role="button" class="btn pb_outline-light btn-xl pb_font-13 p-4 rounded-0 pb_letter-spacing-2" id="headerBtn">Enter the Contest</a></p>
             </div>
 
           </div>
@@ -122,13 +116,15 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-5 pr-md-5 pr-sm-0">
-            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">We need you.</h2>
-            <p>Imagine a day filled with brilliant speakers, thought-provoking video, and mind-blowing conversation. That will become reality on April 9, 2018.</p>
-            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <h2 class="mt-0 heading-border-top mb-3 font-weight-normal">An opportunity to be heard.</h2>
+              <p>The TEDxUCSB team is looking for 3 UCSB students with ideas they'd like to share in an <b>8-12 minute TED talk</b> at our event this year on <b>Saturday, March 3, 2018.</b></p>
+              <p>Our theme this year is "Lost and Found." Interested applicants need to submit a 3-4 minute video in English, detailing what they want to share with the world. Don't worry, we aren't judging you on how nice your video looks.</p>
+              <p>The 3 contest winners will have the opportunity to be coached by our team to give an incredible talk at this year's TEDxUCSB event, which will be featured all over campus and distributed online.</p>
+              <p>Think you have good ideas? We'd like to hear them.</p>
           </div>
           <div class="col-lg-7">
             <div class="images">
-              <img class="img1 img-fluid" src="http://image.ibb.co/bPTzMm/16991564_1137492533046188_3497357959175845640_o.jpg" alt="free Template">
+              <img class="img1 img-fluid" src="assets/images/group_image.jpg" alt="TEDxUCSB group picture">
             </div>
           </div>
 
@@ -145,8 +141,8 @@
             <div class="media pb_media_v2 d-block text-center mb-5">
                 <div class="numberCircle d-block mr-3 display-4 mx-auto mb-4"><b>1</b></div>
                 <div class="media-body">
-                <h3 class="mt-0 pb_font-30">Imagine</h3>
-                    <p>What ideas are you passionate about? How do you relate to our theme of <i>Lost &  Found</i>?</p>
+                <h3 class="mt-0 pb_font-50">Imagine</h3>
+                    <br><p>What ideas do you want to share with the world? <br><br>How do you relate to our theme of <i>Lost &  Found</i>?</p>
               </div>
             </div>
           </div>
@@ -154,8 +150,9 @@
             <div class="media pb_media_v2 d-block text-center  mb-5">
               <div class="numberCircle d-block mr-3 display-4 mx-auto mb-4"><b>2</b></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-30">Create</h3>
-                <p>Create a 3 minute video passionately explaining what you want to talk about and why your idea matters. We care about your ideas, not how pretty the video is.</p>
+                <h3 class="mt-0 pb_font-50">Create</h3>
+                  <br>
+                <p>Create a 3 minute video passionately explaining what you want to talk about and why your idea matters.<br><br>We care about your ideas, not how pretty the video is.</p>
               </div>
             </div>
           </div>
@@ -163,8 +160,9 @@
             <div class="media pb_media_v2 d-block text-center  mb-5">
                 <div class="numberCircle d-block mr-3 display-4 mx-auto mb-4"><b>3</b></div>
               <div class="media-body">
-                <h3 class="mt-0 pb_font-30">Submit</h3>
-                <p>Upload your video somewhere online and submit it by the deadline listed in the section below.</p>
+                <h3 class="mt-0 pb_font-50">Submit</h3>
+                  <br>
+                <p>Upload your video somewhere online. We recommend Vimeo, as you can easily upload videos directly from your phone using the app.<br><br>Submit your entry in the section below.</p>
               </div>
             </div>
           </div>
@@ -173,14 +171,14 @@
     </section>
     <!-- END section -->
 
-    <section id="section-enter" class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(http://image.ibb.co/cUWpnR/Flip_Crop.png)">
+    <section id="section-enter" class="pb_sm_py_cover text-center cover-bg-black cover-bg-opacity-4" style="background-image: url(assets/images/entry_image.jpg)">
       <div class="container">
 
         <div class="row align-items-center">
           <div class="col-md-12">
             <h2 class="heading mb-3">Ready to Enter?</h2>
-            <p class="sub-heading mb-5 pb_color-light-opacity-8">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-            <p><a href="#section-contact" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Submit Your Entry</a></p>
+            <p class="sub-heading mb-5 pb_color-light-opacity-8">Contest closes Friday, January 26 at 11:59:59 PM.</p>
+            <p><a href="https://goo.gl/forms/fCrybSLSUrUeAjTM2" target="_blank" role="button" class="btn smoothscroll pb_outline-light p-3 rounded-0 pb_font-13 pb_letter-spacing-2">Submit Your Entry</a></p>
           </div>
         </div>
 
@@ -194,68 +192,30 @@
 
         <div class="row justify-content-md-center text-center mb-5">
           <div class="col-lg-7">
-            <h2 class="mt-0 heading-border-top font-weight-normal">Confused? Get In Touch</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+            <h2 class="mt-0 heading-border-top font-weight-normal">Confused? Get In Touch.</h2>
           </div>
         </div>
 
-<!--
-        <div class="row">
-          <div class="col-md-8 pr-md-5 pr-sm-0 mb-4">
-            <form action="#">
-              <div class="row">
-                <div class="col-md">
-                  <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" class="form-control p-3 rounded-0" id="name">
-                  </div>
-                </div>
-                <div class="col-md">
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control p-3 rounded-0" id="email">
-                  </div>
-                </div>
-              </div>
 
-              <div class="form-group">
-                <label for="message">Message</label>
-                <textarea cols="30" rows="10" class="form-control p-3 rounded-0" id="message"></textarea>
-              </div>
-              <div class="form-group">
-                <input type="submit" class="btn pb_outline-dark pb_font-13 pb_letter-spacing-2 p-3 rounded-0" value="Send Message">
-              </div>
-            </form>
-          </div>
-          <div class="col-md-4">
-            <ul class="pb_contact_details_v1">
+
+          <div class="row justify-content-md-center text-center">
+            <ul class="col-lg-7 justify-content-md-center pb_contact_details_v1 text-center">
               <li>
                 <span class="text-uppercase">Email</span>
-                probootstrap@gmail.com
+                  <a href="mailto:ucsb.tedx@gmail.com?subject=Speaker%20Contest%20Question">ucsb.tedx@gmail.com</a>
               </li>
-              <li>
-                <span class="text-uppercase">Phone</span>
-                +30 976 1382 9921
-              </li>
-              <li>
-                <span class="text-uppercase">Fax</span>
-                +30 976 1382 9922
-              </li>
-              <li>
-                <span class="text-uppercase">Address</span>
-                San Francisco, CA <br>
-                4th Floor8 Lower  <br>
-                San Francisco street, M1 50F
-              </li>
+
+                <li>
+                    <span class="text-uppercase">Facebook</span>
+                    <a href="https://www.facebook.com/TEDxUCSB/" target="_blank">facebook.com/TEDxUCSB/</a>
+                </li>
+
             </ul>
           </div>
         </div>
 
-      </div>
     </section>
-    -->
     <!-- END section -->
-
 
     <footer class="pb_footer bg-light" role="contentinfo">
       <div class="container">
