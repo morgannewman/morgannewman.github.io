@@ -11,7 +11,7 @@
 
 @media (max-width: 767px) {
   #countdown {
-    top: 0; bottom: 0; left: 5%; right: 0;
+    top: 0; bottom: 0; left: 3%; right: 0;
   }
   #countdown{
     zoom: 0.8;
